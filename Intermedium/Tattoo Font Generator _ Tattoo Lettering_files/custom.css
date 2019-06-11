@@ -1,0 +1,162 @@
+
+/* Space out content a bit */
+body {padding-top: 0;padding-bottom: 0; background-color: #3d4451;}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,.marketing,.footer {padding-right: 15px;padding-left: 15px;}
+/* Custom page header */
+.header {padding-top: 20px; margin-bottom: 5px; border-bottom: 1px solid #e5e5e5; background-color: #f3f3f8;}
+.header h1 {font-size: 35px;padding-bottom: 10px;margin-top: 0;margin-bottom: 0;line-height: 40px;font-style: normal;font-family:Lobster}
+/* Custom page footer */
+.footer {padding-top: 19px;color: #777;border-top: 1px solid #e5e5e5;text-align: center;}
+/* Customize container */
+.container {background-color: #ffffff;}
+@media (min-width: 1200px) {.container { width: 1120px; }}
+@media (min-width: 768px){.container {max-width: 800;}}
+.container-narrow > hr {margin: 30px 0;}
+.new::after {content: ""; background: url("/img/new_48.png") no-repeat bottom right; background-size: 15px 15px; padding: 0; margin:0; line-height: 15px; display:inline-block; width: 15px; height: 15px; }
+/* Main marketing message and sign up button */
+.jumbotron {padding: 10px !important; margin-bottom: 5px; border-bottom: 1px solid #e5e5e5;}
+#btn-generate .btn {padding: 10px 17px; font-size: 18px;}
+.hint {font-size: 0.9em;text-align: center;padding: 3px 0 0 0;margin: 0;}
+#images-container .btn {width:16%;}
+/* Supporting marketing content */
+.marketing {margin: 10px 0; clear: both;}
+.marketing h2 {font-size: 1.6em;}
+.marketing h3 {font-size: 1.3em;}
+.marketing p + h4 {margin-top: 28px;}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+/* Remove the padding we set earlier */
+.marketing,.footer {padding-right: 0;padding-left: 0;}
+/* Remove the bottom border on the jumbotron for visual effect */
+.jumbotron {border-bottom: 0;}}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {background-color: white;cursor: default;}
+#main-menu {margin-bottom: 10px;}
+#text-container { text-align: center; margin-top: 10px;margin-bottom: 0;padding: 15px 5px; min-height: 103px;}
+#tattoo-characters, #tattoo-names { text-align: center; word-wrap: break-word;}
+#tattoo-characters span { padding: 0 5px; font-size: 75px;  color: #000000;}
+#tattoo-names li { display: inline; font-size: 50px;}
+#tattoo-names li a { font-size: 50px;  color: #000000;}
+#tattoo-names li:after { content: ", ";}
+#tattoo-names li:last-child:after { content: "";}
+
+@media print { .no-print{ display: none !important; }}
+
+.call-to-action {
+  border-radius: 5px;
+  padding: 3px;
+  background-color: #d9534f;
+}
+
+.call-to-action a {
+  color: #fff;
+  text-decoration: none;
+  /*font-weight: bold;*/
+}
+
+
+#tattoo-fonts a { color: #000000; }
+#pre-designed { text-align: center; word-wrap: break-word; }
+#pre-designed span { padding: 0 5px; font-size: 35px;  color: #000000;}
+a.font-name { font-size: 35px; }
+select[disabled]{color: #dddddd;}
+label {padding-top: 7px; margin-bottom: 0; text-align: right;}
+.print-text {margin-top:50px;padding: 10px;}
+.input-container {padding-bottom: 5px;}
+.form-group {margin-bottom: 5px 0;}
+.centered {text-align: center;}
+.narrow {width: 65px;display: inline-block;}
+.widest {width: 200px;display: inline-block;}
+.header-ad {text-align: center; padding: 20px 0;}
+.print-header-ad {text-align: center; padding: 10px 0;}
+.top {margin: 5px 0 10px 0;}
+.bottom {padding: 10px 0 0 0;}
+.share-button {min-height: 37px;}
+.right-align {text-align:right;}
+/*#first-column .row:after, #second-column .row:after{ clear:none; }*/
+.clear { clear: both;}
+.container-fluid > .sidebar { position: relative; top: 0; left:auto; width: 170px; border: 1px solid red; }
+.left { float:left; padding: 0 0 0 5px;}
+.right { float:right; padding: 0 5px 0 0;}
+.container-fluid > .content { margin: 0 180px; border:1px solid red; }
+@media (min-width: 620px) {
+.header {padding-left:180px; padding-right:180px;}
+.header-links {padding-left:180px; padding-right:180px;}
+.fixed-fixed { margin: 0 170px; }}
+@media (max-width: 620px) {
+.header {padding-left:5px; padding-right:5px;}
+.left {display:none}
+.right {display:none}
+.container-fluid > .content { margin: 0; }
+.fixed-fixed { margin: 0; }}
+.default-style { font-family: 'Brock Script'; font-size: 50px; }
+
+#wrap { width: 100%; position: relative; }
+#wrap #tattoo-image { position: absolute; font-size: 25px; top: 0%; left: 0%; margin: 0; padding: 0; z-index: 1; }
+
+.call-to-buy { font-size: 1.5em; margin: 10px 0;}
+.call-to-buy .text { font-size: 1.8em; display: block;}
+.call-to-buy .prize { display: block; }
+a.buy-it  {text-align: center;display: block;background: #fe5823;width: 150px;height: 150px;padding: 35px 0px;-webkit-border-radius: 75px;-moz-border-radius: 75px;border-radius: 75px;font-size: 3em;text-decoration: none;color: #fff;text-transform: uppercase;margin-bottom: 10px;font-weight: normal;line-height: 50px;background-color: #ED430C;}
+a.buy-it span {display:block; font-size: .5em; color: #FFAA8C;}
+
+/*
+ * Very simple jQuery Color Picker
+ * https://github.com/tkrotoff/jquery-simplecolorpicker
+ *
+ * Copyright (C) 2012-2013 Tanguy Krotoff <tkrotoff@gmail.com>
+ *
+ * Licensed under the MIT license
+ */
+
+/**
+ * Inspired by Bootstrap Twitter.
+ * See https://github.com/twbs/bootstrap/blob/master/less/navbar.less
+ * See https://github.com/twbs/bootstrap/blob/master/less/dropdowns.less
+ */
+.simplecolorpicker.picker {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1051; /* Above Bootstrap modal (@zindex-modal = 1050) */
+  display: none;
+  float: left;
+
+  min-width: 160px;
+  max-width: 283px; /* @popover-max-width = 276px + 7 */
+
+  padding: 5px 0 0 5px;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #fff; /* @dropdown-bg */
+
+  border: 1px solid #ccc; /* @dropdown-fallback-border */
+  border: 1px solid rgba(0, 0, 0, .15); /* @dropdown-border */
+
+  -webkit-border-radius: 4px; /* @border-radius-base */
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+     -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+          box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+}
+.simplecolorpicker.inline {display: inline-block;padding: 6px 0;}
+.simplecolorpicker span {margin: 0 5px 5px 0;}
+.simplecolorpicker.icon,.simplecolorpicker span.color {display: inline-block;cursor: pointer;border: 1px solid transparent;}
+.simplecolorpicker.icon:after,
+.simplecolorpicker span.color:after {content: '\00a0\00a0\00a0\00a0'; /* Spaces */}
+.simplecolorpicker span.color[data-disabled]:hover {cursor: not-allowed;border: 1px solid transparent;}
+.simplecolorpicker span.color:hover,
+.simplecolorpicker span.color[data-selected],
+.simplecolorpicker span.color[data-selected]:hover {border: 1px solid #222; /* @gray-dark */}
+.simplecolorpicker span.color[data-selected]:after {color: #fff;}
+/* Vertical separator, replaces optgroup. */
+.simplecolorpicker span.vr {border-left: 1px solid #222; /* @gray-dark */}
+
+/*For jquery.simplecolorpicker plugin*/
+.simplecolorpicker.regularfont span.color[data-selected]:after {content: '\2714'; /* Ok/check mark */margin-right: 2.2px;margin-left: 2.2px;}
